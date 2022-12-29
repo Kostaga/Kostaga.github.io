@@ -1,0 +1,35 @@
+
+
+.portfolio-item {
+	position: relative;
+}
+
+
+.project-info {
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 20px;
+	transition: ease-in-out all .90s;
+}
+
+
+
+
+
+.project-info:hover {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
+}
+
+
+.project-info:hover button {
+	bottom: 5%;
+	opacity: 1;	
+}
+
+.project-info button:hover {
+	transform: scale(1.05) translateX(-50%);
+}

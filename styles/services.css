@@ -1,0 +1,85 @@
+.heading {
+	text-align: center;
+}
+
+.heading h2 {
+	font-size: var(--h2-font);
+	font-weight: 500;
+	margin: 7px 0px 20px;
+	line-height: 1.1;
+}
+
+.heading h3 {
+	color: rgb(47, 95, 173);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.heading p {
+	font-size: var(--p-font);
+	color: rgb(172, 172, 172);
+	line-height: 28px;
+}
+
+
+.row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background: #ffffff;
+	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+	border-radius: 16px;
+	padding: 45px 45px 45px 45px;
+	transition: ease .45s;
+	cursor: pointer;
+	max-width: 100%;
+}
+
+.services svg {
+	height: 65px;
+	width: 65px;
+	padding: 13px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.service-1 svg {
+	background: rgba(244, 96, 96, 0.77);
+}
+
+.service-2 svg {
+	background: rgba(107, 157, 243, 0.953);
+}
+
+.service-3 svg {
+	background: rgb(96, 244, 190);
+}
+
+.service-4 svg {
+	background: rgb(185, 121, 242);
+}
+
+.row h3 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.row h5 {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 19px;
+}
+
+.row p {
+	font-size: var(--p-font);
+	color: grey;
+	line-height: 28px;
+}
+
+.row:hover {
+        transform: scale(1.1);
+
+}
+
