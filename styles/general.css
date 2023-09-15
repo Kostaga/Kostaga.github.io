@@ -85,20 +85,30 @@
 }
 
 
-.project-info button {
-	position: absolute;
+.project-info svg:nth-child(n) {
 	background-color: rgb(94, 141, 218);
-	width: 30%;
+	width: 8%;
 	max-width: 100%;
-	font-size: 23px;
-	font-weight: 500;
 	color: var(--bg-color);
-	bottom: 0;
-	left: 50%;
 	transform: translateX(-50%);
 	opacity: 0;
 	transition: all .70s;
-	padding: 10px 12px;
+	padding: 10px 10px;
+	border-radius: 100px;
+	cursor: pointer;
+	border: none;
+}
+
+.project-info svg:nth-child(2n) {
+	background-color: rgb(94, 141, 218);
+	width: 8%;
+	max-width: 100%;
+	color: var(--bg-color);
+	transform: translateX(-50%);
+	opacity: 0;
+	transition: all .70s;
+	padding: 10px 10px;
+	border-radius: 100px;
 	cursor: pointer;
 	border: none;
 }

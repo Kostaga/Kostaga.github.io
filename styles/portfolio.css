@@ -16,16 +16,39 @@
 	transition: ease-in-out all .90s;
 }
 
+
+.project-info .svg-icons {
+	position: absolute;
+	bottom: 15px;
+	left: 43%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+  }
+  
+  
+  .project-info .svg-icons svg {
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+
+
 .project-info:hover {
 	background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
 }
 
 
-.project-info:hover button {
-	bottom: 5%;
+.project-info:hover svg {
 	opacity: 1;	
 }
 
-.project-info button:hover {
-	transform: scale(1.05) translateX(-50%);
+
+
+.project-info svg:hover {
+	transform: scale(1.1) translateX(-50%);
 }
+
