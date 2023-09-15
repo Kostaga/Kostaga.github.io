@@ -2,6 +2,10 @@
 
 .portfolio-item {
 	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
@@ -16,25 +20,6 @@
 	transition: ease-in-out all .90s;
 }
 
-
-.project-info .svg-icons {
-	position: absolute;
-	bottom: 15px;
-	left: 43%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 2.5rem;
-  }
-  
-  
-  .project-info .svg-icons svg {
-	width: 55px;
-	height: 55px;
-	cursor: pointer;
-	transition: transform 0.3s ease-in-out;
-  }
-  
 
 
 .project-info:hover {
